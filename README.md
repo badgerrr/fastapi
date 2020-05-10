@@ -1,6 +1,6 @@
 # FastAPI
 
-Hello world app demoing the usage of FastAPI
+Hello world app demoing the usage of FastAPI based on this [docker image](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)
 
 ## Prerequisites
 
