@@ -1,1 +1,4 @@
-app/__pycache__
+src/app/__pycache__
+src/data/
+src/app/env
+.idea

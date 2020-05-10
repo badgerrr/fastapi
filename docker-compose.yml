@@ -1,9 +1,10 @@
 version: '3'
 services:
   web:
-    build: .
+    build: ./src
     ports:
       - "80:80"
     volumes:
-      - ./app:/app
-    # entrypoint: watchmedo auto-restart --recursive --pattern="*.py" --directory="." py.test
+      - ./src/app:/app
+      - ./data:/data
+    entrypoint: uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 80

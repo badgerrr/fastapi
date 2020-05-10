@@ -15,3 +15,9 @@ docker-compose build
 docker-compose up
 ```
 Navigate to http://127.0.0.1/docs#/
+python visualisation
+
+## Ideas
+
+Build a generic forecasting model using fb prophet
+Serve it up using fastapi
